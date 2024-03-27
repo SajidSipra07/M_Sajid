@@ -8,73 +8,110 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
+  color: #99d930;
 }
 
-.bold{
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+*{
+  font-family: "Roboto";
+  
   font-style: normal;
+  text-align: center;
+  margin: 0;
 }
 img{
-    width: 200px;
-    height: 200px;
-
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-body{
-font-size: 21px;
-font-family: "Roboto", sans-serif;
+  height: 400px;
+  width: 400px;  
+border-radius: 50%;
+margin-top: 30px;
 
 }
-*{
-  margin: 0;
-  padding: 0;
-}
-.small{
-  font-size: 16px;
-}
-.content-wrapper{
-  padding-top: 100px;
-  padding-bottom: 100px;
-   margin: auto;
-   text-align: center;
-    
-}
-header{
-  background-color: #D7D7D7;
-}
-.about-me{
-  background-color: #FFEAEA;
-}
-.article{
-  background-color: #EAF9FF;
+.wraper{
+ text-align: center;
 }
 h1{
-font-size: 80px;
-font-family: "Roboto", sans-serif;
-font-weight: 200;
-font-style: normal;
-
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 80px;
 }
 h2{
-font-size: 64px;
-font-family: "Roboto", sans-serif;
-font-weight: 200;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 60px;
 
  
 }
 h3{
-font-size: 36px;
-font-weight: 200;
+  
+  font-weight: 900px;
+  font-size: 36px;
+  
+}
+.small{
+  font-size: 16px;
 
-font-family: "Roboto", sans-serif;
- 
 }
-a{
-  color: #99D930;
+.con-link{
+  color: #99D930 ;
+  
 }
-a:hover{
+.con-link:hover {
+  color:  #131313; 
+}
+.main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #D7D7D7;
+  
+}
+.about-me{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #FFEAEA;
+}
+.articles{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #EAF9FF;
+  background-color: #252525;
+  color: #fff;
+}
+.main{
+  background-color: #252525;
+  color: #fff;
+}
+.var{
+  margin-top: 20px;
+}
+.button{
+  color: #252525 ;
+  background: #99D930;
+  margin-top: 30px;
+  text-decoration: none;
+  display: flexbox;
+
+}
+button:hover {
+  color: #fff;
+ background: #252525;
+}
+.anchor{
   color: #131313;
+}
+h2{
+  display: inline-block;
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+
+}
+.space{
+  margin-bottom: 20px;
+}
+.small{
+  color: #99d930;
+ Font-weight: 900;
+
+}
+#hover:hover{
+  background: #fff;
+   color: #252525;
 }
